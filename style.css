@@ -1,10 +1,17 @@
+/* Variables */
+:root {
+    --main-bg-color: #181818; 
+    --main-ft-color: #e3e3e3;
+}
+
+/* main style */
 body {
-    background-color: #181818;
+    background-color: #e3e3e3;
 
 }
 
 /* Typography */
 h1 {
-    color: #e3e3e3;
+    color: #181818;
     text-align: center;
 }
