@@ -1,3 +1,6 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 /* Variables */
 :root {
     --main-bg-color: #181818; 
@@ -14,6 +17,7 @@ body {
 h1 {
     color: #181818;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 @media (prefers-color-scheme: dark){
