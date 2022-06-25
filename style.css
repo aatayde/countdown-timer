@@ -1,0 +1,26 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Variables */
+:root {
+    --main-dark-color: #181818; 
+    --main-light-color: #e3e3e3;
+}
+
+/* main style */
+body {
+    background-color: var(main-light-color);
+
+}
+
+/* Typography */
+h1 {
+    color: var(--main-dark-color);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (prefers-color-scheme: dark){
+    body {background-color: var(--main-dark-color);}
+    h1 {color: var(--main-light-color);}
+}
